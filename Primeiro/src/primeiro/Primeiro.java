@@ -4,6 +4,8 @@
  */
 package primeiro;
 
+import java.util.Scanner;
+
 /**
  *
  * @author Genaba
@@ -15,8 +17,16 @@ public class Primeiro {
      */
     public static void main(String[] args) {
         System.out.println("Hello word!");
+        Scanner teclado = new Scanner(System.in);
+//        int A = teclado.nextInt();
+//        int B = teclado.nextInt();
+//        int X = A + B;
+//
+//        teclado.close();
+       double area = 10.123456; // Exemplo de valor para a variável area
 
-        
+        // Imprime o valor com 4 casas decimais e uma quebra de linha no final
+        System.out.printf("A=%.4f%n", area);
     }
-    
+
 }
